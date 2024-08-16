@@ -1,7 +1,7 @@
 // import { data } from "autoprefixer";
 import React, { useEffect, useState } from "react";
 import Form from "./Form";
-export const url = "http://localhost:3000/rides";
+export const url = "https://db-azure-two.vercel.app/rides";
 const Homepage = ({ search }) => {
 	const [driver, setDriver] = useState([]);
 
